@@ -54,8 +54,8 @@ You should have received a copy of the GNU General Public License along with thi
 ## Credits ##
 
 Icons
- * License: ![Creative Commons Attribution-NoDerivs](http://creativecommons.org/licenses/by-nd/3.0/)
- * Owner: ![icons8.com](http://icons8.com/)
+ * License: [Creative Commons Attribution-NoDerivs](http://creativecommons.org/licenses/by-nd/3.0/)
+ * Owner: [icons8.com](http://icons8.com/)
 
 
 ## Screenshots ##
