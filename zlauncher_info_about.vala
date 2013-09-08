@@ -56,8 +56,8 @@ public class ZLauncher_info_about : ZLauncher_template {
 		
 		add_2_subheaders("Version:","1.0");
 		add_2_subheaders("License:","GPL v3");
-		add_2_subheaders("Location:","GitHub ...");
-		add_2_subheaders(""," ...");
+		add_2_subheaders("Location:","GitHub");
+		add_2_subheaders("","https://github.com/zeromancer/zlauncher");
 		add_2_subheaders("Author:","David Siewert");
 		
 		Gtk.Label subheader_copy = get_label("Icons",1);
