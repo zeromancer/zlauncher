@@ -1,6 +1,6 @@
 # ZLauncher #
 
-![screenshot1](https://github.com/zeromancer/zlauncher/tree/master/screenshots/1.png)
+![screenshot1](https://raw.github.com/zeromancer/zlauncher/tree/master/screenshots/1.png)
 
 ## Description ##
 
@@ -62,7 +62,7 @@ Owner:
 
 ## Screenshots ##
 
-![screenshot2](https://github.com/zeromancer/zlauncher/tree/master/screenshots/2.png)
+![screenshot2](https://raw.github.com/zeromancer/zlauncher/tree/master/screenshots/2.png)
 
 ![screenshot3](https://github.com/zeromancer/zlauncher/tree/master/screenshots/3.png)
 
