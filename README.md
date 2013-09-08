@@ -5,7 +5,7 @@
 ## Description ##
 
 ZLauncher is a menu like launcher,
-to launch applications, configuration files 
+to launch applications, edit configuration files 
 and every other custom command.
 
 
@@ -53,7 +53,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Credits ##
 
-Icons
+### Icons
  * License: [Creative Commons Attribution-NoDerivs](http://creativecommons.org/licenses/by-nd/3.0/)
  * Owner: [icons8.com](http://icons8.com/)
 
@@ -62,7 +62,7 @@ Icons
 
 ![screenshot1](https://raw.github.com/zeromancer/zlauncher/master/screenshots/1.png)
 
-![screenshot2](https://raw.github.com/zeromancer/zlaunchermaster/screenshots/2.png)
+![screenshot2](https://raw.github.com/zeromancer/zlauncher/master/screenshots/2.png)
 
 ![screenshot3](https://raw.github.com/zeromancer/zlauncher/master/screenshots/3.png)
 
