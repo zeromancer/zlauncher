@@ -1,6 +1,6 @@
 # ZLauncher #
 
-![screenshot1](https://raw.github.com/zeromancer/zlauncher/tree/master/screenshots/1.png)
+![screenshot1](https://raw.github.com/zeromancer/zlauncher/master/screenshots/1.png)
 
 ## Description ##
 
@@ -62,14 +62,16 @@ Owner:
 
 ## Screenshots ##
 
-![screenshot2](https://raw.github.com/zeromancer/zlauncher/tree/master/screenshots/2.png)
+![screenshot1](https://raw.github.com/zeromancer/zlauncher/master/screenshots/1.png)
 
-![screenshot3](https://github.com/zeromancer/zlauncher/tree/master/screenshots/3.png)
+![screenshot2](https://raw.github.com/zeromancer/zlaunchermaster/screenshots/2.png)
 
-![screenshot4](https://github.com/zeromancer/zlauncher/tree/master/screenshots/4.png)
+![screenshot3](https://raw.github.com/zeromancer/zlauncher/master/screenshots/3.png)
 
-![screenshot5](https://github.com/zeromancer/zlauncher/tree/master/screenshots/5.png)
+![screenshot4](https://raw.github.com/zeromancer/zlauncher/master/screenshots/4.png)
 
-![screenshot6](https://github.com/zeromancer/zlauncher/tree/master/screenshots/6.png)
+![screenshot5](https://raw.github.com/zeromancer/zlauncher/master/screenshots/5.png)
 
-![screenshot7](https://github.com/zeromancer/zlauncher/tree/master/screenshots/7.png)
+![screenshot6](https://raw.github.com/zeromancer/zlauncher/master/screenshots/6.png)
+
+![screenshot7](https://raw.github.com/zeromancer/zlauncher/master/screenshots/7.png)
