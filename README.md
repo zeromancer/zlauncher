@@ -59,6 +59,10 @@ Icons licensed under:
 Icons owner:
  * http://icons8.com/
 
+Icons
+ * License: Creative Commons Attribution-NoDerivs
+ * Owner: [icons8.com](http://icons8.com/)
+
 
 ## Screenshots ##
 
