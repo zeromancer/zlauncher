@@ -4,15 +4,13 @@
 
 ## Description ##
 
-ZLauncher is a menu like launcher,
-to launch applications, edit configuration files 
-and every other custom command.
+ZLauncher is a menu like launcher, to launch applications, edit configuration files and other custom command.
 
 
 ## Features ##
- * fast
- * lightweigt (depends only on gtk3)
- * very customisable
+ * Fast
+ * Lightweigt (depends only on gtk3)
+ * Customisable
 
 
 ## Usage ##
@@ -22,13 +20,13 @@ and every other custom command.
 
 ## Requirements ##
 
-### Run Requirements:
- * glib2
- * gtk3
+**Run Requirements:**
+ * glib-2.0
+ * gtk+-3.0
 
 
-### Build Requirements
- * vala/valac >= 0.20.0
+**Build Requirements:**
+ * valac >= 0.20.0
  * gcc
  * pkg-config
 
@@ -53,7 +51,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Credits ##
 
-### Icons
+**Icons:**
  * License: [Creative Commons Attribution-NoDerivs](http://creativecommons.org/licenses/by-nd/3.0/)
  * Owner: [icons8.com](http://icons8.com/)
 
