@@ -56,7 +56,7 @@ You should have received a copy of the GNU General Public License along with thi
 Icons licensed under:
  * Creative Commons Attribution-NoDerivs
 
-Owner:
+Icons owner:
  * http://icons8.com/
 
 
