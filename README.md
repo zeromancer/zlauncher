@@ -16,18 +16,18 @@ and every other custom command.
 
 
 ## Usage ##
- *	left click -> launch
+ * left click -> launch
  * right click -> edit
 
 
 ## Requirements ##
 
-Run Requirements:
+### Run Requirements:
  * glib2
  * gtk3
 
 
-Build Requirements
+### Build Requirements
  * vala/valac >= 0.20.0
  * gcc
  * pkg-config
