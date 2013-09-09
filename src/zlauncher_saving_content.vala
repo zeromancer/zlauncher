@@ -126,7 +126,7 @@ public class  ZLauncher_saving_content: GLib.Object {
 [02,03]entry⋮style=2⋮icon=lol-26⋮text=Jokes⋮cmd=geany /home/$USER/Texts/Jokes.txt
 [02,04]entry⋮style=2⋮icon=quote-26⋮text=Quotes⋮cmd=geany /home/$USER/Texts/Quotes.txt
 [02,05]entry⋮style=2⋮icon=talk-26⋮text=Stories⋮cmd=geany /home/$USER/Texts/Stories.txt
-[02,06]entry⋮style=1⋮icon=conference_call-26⋮text=Collaboration⋮cmd=
+[02,06]entry⋮style=1⋮icon=⋮text=Collaboration⋮cmd=
 [02,07]entry⋮style=2⋮icon=hdd-26⋮text=Document 1⋮cmd=
 [02,08]entry⋮style=2⋮icon=loudspeaker-26⋮text=Document 2⋮cmd=
 [03,00]entry⋮style=0⋮icon=support-26⋮text=Config⋮cmd=
