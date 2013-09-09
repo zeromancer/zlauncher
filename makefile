@@ -5,14 +5,16 @@ clean:
 		rm -rf *.o zlauncher
 
 install:
-		cp -f zlauncher /usr/bin
-		mkdir -p /usr/share/icons/win8/
-		cp -r example-icons-dark/* /usr/share/icons/win8/
-		cp logo/zlauncher-256.png /usr/share/pixmaps/zlauncher.png
-		cp dist/zlauncher.desktop /usr/share/applications/
+		test -z "$(DESTDIR)$(PREFIX)/bin" || mkdir -p "$(DESTDIR)$(PREFIX)/bin";
+		cp -a -f zlauncher $(DESTDIR)$(PREFIX)/bin
+		test -z "$(DESTDIR)$(PREFIX)/share/icons/win8/" || mkdir -p $(DESTDIR)$(PREFIX)/share/icons/win8/
+		cp -a -r example-icons-dark/* $(DESTDIR)$(PREFIX)/share/icons/win8/
+		cp -a logo/zlauncher-256.png $(DESTDIR)$(PREFIX)/share/pixmaps/zlauncher.png
+		test -z "$(DESTDIR)$(PREFIX)/share/applications" || mkdir -p "$(DESTDIR)$(PREFIX)/share/applications"
+		cp -a dist/zlauncher.desktop $(DESTDIR)$(PREFIX)/share/applications/
 		
 uninstall:
-		rm -f /usr/bin/zlauncher
-		rm -rf /usr/share/icons/win8/
-		rm -f /usr/share/pixmaps/zlauncher.png
-		rm -f /usr/share/applications/zlauncher.desktop
+		rm -f $(DESTDIR)$(PREFIX)/bin/zlauncher
+		rm -rf $(DESTDIR)$(PREFIX)/share/icons/win8/
+		rm -f $(DESTDIR)$(PREFIX)/share/pixmaps/zlauncher.png
+		rm -f $(DESTDIR)$(PREFIX)/share/applications/zlauncher.desktop
