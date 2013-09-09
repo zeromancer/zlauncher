@@ -9,6 +9,7 @@ install:
 		cp -a -f zlauncher $(DESTDIR)$(PREFIX)/bin
 		test -z "$(DESTDIR)$(PREFIX)/share/icons/win8/" || mkdir -p $(DESTDIR)$(PREFIX)/share/icons/win8/
 		cp -a -r example-icons-dark/* $(DESTDIR)$(PREFIX)/share/icons/win8/
+		test -z "$(DESTDIR)$(PREFIX)/share/pixmaps/zlauncher.png" || mkdir -p "$(DESTDIR)$(PREFIX)/share/pixmaps/zlauncher.png"
 		cp -a logo/zlauncher-256.png $(DESTDIR)$(PREFIX)/share/pixmaps/zlauncher.png
 		test -z "$(DESTDIR)$(PREFIX)/share/applications" || mkdir -p "$(DESTDIR)$(PREFIX)/share/applications"
 		cp -a dist/zlauncher.desktop $(DESTDIR)$(PREFIX)/share/applications/
