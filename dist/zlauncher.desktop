@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=ZLauncher
+Categories=Application;System;Utility;GTK;
+Exec=/usr/bin/zlauncher
+Icon=/usr/share/pixmaps/zlauncher.png
+StartupNotify=false
+Type=Application
+Terminal=false
