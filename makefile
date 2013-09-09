@@ -9,8 +9,10 @@ install:
 		mkdir -p /usr/share/icons/win8/
 		cp -r example-icons-dark/* /usr/share/icons/win8/
 		cp logo/zlauncher-256.png /usr/share/pixmaps/zlauncher.png
-
+		cp dist/zlauncher.desktop /usr/share/applications/
+		
 uninstall:
 		rm -f /usr/bin/zlauncher
 		rm -rf /usr/share/icons/win8/
 		rm -f /usr/share/pixmaps/zlauncher.png
+		rm -f /usr/share/applications/zlauncher.desktop
