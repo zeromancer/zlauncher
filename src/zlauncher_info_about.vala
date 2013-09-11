@@ -57,19 +57,16 @@ public class ZLauncher_info_about : ZLauncher_template {
 		add_2_subheaders("Version:","1.0");
 		add_2_subheaders("License:","GPL v3");
 		add_2_subheaders("Location:","GitHub");
-		//add_2_subheaders("","https://github.com/zeromancer/zlauncher");
-		add_1_subheader("https://github.com/zeromancer/zlauncher");
+		add_2_subheaders("","https://github.com/zeromancer/zlauncher");
 		add_2_subheaders("Author:","David Siewert");
-		add_1_subheader("Contact:","siewert"+".msc"+"@"+"gmail"+".com");
+		add_2_subheaders("Contact:","siewert"+".msc"+"@"+"gmail"+".com");
 		
 		Gtk.Label subheader_copy = get_label("Icons",1);
 		grid.attach(subheader_copy,0, widget_lines++,first_widget_width+second_widget_width,widget_height);
 		
-		//add_2_subheaders("License:","Creative Commons Attribution-NoDerivs 3.0 Unported");
 		add_2_subheaders("License:","Creative Commons");
 		add_2_subheaders("","Attribution-NoDerivs");
 		add_2_subheaders("","3.0 Unported");
-//~ 		add_1_subheader("Attribution-NoDerivs 3.0 Unported");
 		add_2_subheaders("Owner:","http://icons8.com/");
 		//add_2_subheaders("","http://creativecommons.org/licenses/by-nd/3.0/");
 
