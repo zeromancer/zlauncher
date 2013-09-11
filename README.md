@@ -9,7 +9,7 @@ ZLauncher is a menu like launcher, to launch applications, edit configuration fi
 
 ## Features ##
  * Fast
- * Lightweigt (depends only on gtk3)
+ * Lightweight (depends only on gtk3)
  * Customisable
 
 
