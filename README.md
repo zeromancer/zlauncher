@@ -38,6 +38,8 @@ make
 sudo make install
 ```
 
+## Authors ##
+ * David Siewert (siewert /dot msc /at gmail /dot com)
 
 ## License ##
 
