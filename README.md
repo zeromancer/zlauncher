@@ -4,8 +4,7 @@
 
 ## Description ##
 
-ZLauncher is a menu like launcher, to launch applications, edit configuration files and launch other custom commands.
-
+ZLauncher is a menu like launcher, to edit configuration files and launch applications and custom commands.
 
 ## Features ##
  * Fast
