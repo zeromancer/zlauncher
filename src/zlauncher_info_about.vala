@@ -57,8 +57,10 @@ public class ZLauncher_info_about : ZLauncher_template {
 		add_2_subheaders("Version:","1.0");
 		add_2_subheaders("License:","GPL v3");
 		add_2_subheaders("Location:","GitHub");
-		add_2_subheaders("","https://github.com/zeromancer/zlauncher");
+		//add_2_subheaders("","https://github.com/zeromancer/zlauncher");
+		add_1_subheader("https://github.com/zeromancer/zlauncher");
 		add_2_subheaders("Author:","David Siewert");
+		add_1_subheader("Contact:","siewert"+".msc"+"@"+"gmail"+".com");
 		
 		Gtk.Label subheader_copy = get_label("Icons",1);
 		grid.attach(subheader_copy,0, widget_lines++,first_widget_width+second_widget_width,widget_height);
@@ -67,6 +69,7 @@ public class ZLauncher_info_about : ZLauncher_template {
 		add_2_subheaders("License:","Creative Commons");
 		add_2_subheaders("","Attribution-NoDerivs");
 		add_2_subheaders("","3.0 Unported");
+//~ 		add_1_subheader("Attribution-NoDerivs 3.0 Unported");
 		add_2_subheaders("Owner:","http://icons8.com/");
 		//add_2_subheaders("","http://creativecommons.org/licenses/by-nd/3.0/");
 
@@ -100,6 +103,14 @@ public class ZLauncher_info_about : ZLauncher_template {
 	int first_widget_width = 1;
 	int second_widget_width = 3;
 	int widget_height = 1;
+	
+	public void add_1_subheader(string text1){
+		Gtk.Label label1 = get_label(text1,2);
+		label1.margin_left = options.launcher.column_spacing/2;
+		label1.margin_right = options.launcher.column_spacing/2;
+		grid.attach(label1,0,widget_lines,first_widget_width+second_widget_width,1);
+		widget_lines++;
+	}
 	
 	public void add_2_subheaders(string text1, string text2){
 		
