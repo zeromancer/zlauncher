@@ -1,3 +1,4 @@
+
 # ZLauncher #
 
 ![screenshot1](https://raw.github.com/zeromancer/zlauncher/master/screenshots/1.png)
@@ -37,6 +38,55 @@ make
 sudo make install
 ```
 
+## New Features ##
+
+**How to do a feature requst:**
+
+<table border="0" cellpadding="0" cellspacing="0">
+			<tbody>
+			 
+				<tr><td colspan="2">
+					1. go to <a href="https://github.com/zeromancer/zlauncher/issues">issues</a>
+				</td></tr>
+				
+				<tr><td colspan="2">
+					2. wanted feature already listened ?
+				</td></tr>
+				
+				<tr>
+					<td>
+						yes -></td>
+					<td>
+						add a &quot;+1&quot; comment</td>
+				</tr>
+				<tr>
+					<td>
+						no -> </td>
+					<td>
+						click on "New Issue"</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;</td>
+					<td>
+						click on &quot;freature request&quot; label</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;</td>
+					<td>
+						write a title &amp; text</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;</td>
+					<td>
+						press &quot;Submit new issue&quot;</td>
+				</tr>
+			</tbody>
+		</table>
+
+
 ## Authors ##
  * David Siewert (siewert /dot msc /at gmail /dot com)
 
@@ -49,6 +99,7 @@ FourTerm is free software: you can redistribute it and/or modify it under the te
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
+
 
 ## Credits ##
 
