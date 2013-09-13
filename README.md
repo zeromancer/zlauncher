@@ -34,6 +34,8 @@ ZLauncher is a menu like launcher, to edit configuration files and launch applic
 ## Installation ##
 
 ```
+git clone https://github.com/zeromancer/zlauncher.git
+cd zlauncher
 make
 sudo make install
 ```
