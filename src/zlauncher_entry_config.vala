@@ -175,17 +175,23 @@ public class  ZLauncher_entry_config: GLib.Object {
 	
 	public void change_style(int new_style){
 		
+		//return;
 		//print("change style = %d\n",new_style);
 		
 		if(!options.entries.contains(new_style))
 			return;
 		
-		Gdk.RGBA color = {Random.next_double() ,Random.next_double(),Random.next_double(),1};
-		//Gdk.RGBA color = {1,1,1,1};
-		//color.parse(options.entries.get(new_style).icon_background_color);
+		//Gdk.RGBA color = {Random.next_double() ,Random.next_double(),Random.next_double(),1};
+		Gdk.RGBA color = {1,1,1,1};
+		color.parse(options.entries.get(new_style).icon_background_color);
 		scroll.override_background_color(Gtk.StateFlags.NORMAL,color);
-		view.override_background_color(Gtk.StateFlags.NORMAL,color);
 		
+		view.override_background_color(Gtk.StateFlags.NORMAL,color);
+		//color.parse("#958FFF");
+		//view.override_background_color(Gtk.StateFlags.FOCUSED,color);
+		//color.parse("#C10E54");
+		color.parse(options.entries.get(new_style).selected_background_color);
+		view.override_background_color(Gtk.StateFlags.SELECTED,color);
 	}
 	
 
