@@ -178,7 +178,7 @@ public class  ZLauncher_entry_actions: GLib.Object {
 			stderr.printf ("Error executing command: %s\n", entry.entry_command);
 		}
 			
-		//Gtk.main_quit();
+		Gtk.main_quit();
 	}
 
 	public void edit(ZLauncher_entry entry){
