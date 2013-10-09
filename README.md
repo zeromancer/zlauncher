@@ -42,7 +42,7 @@ sudo make PREFIX="usr" install
 
 
 ## Customisation ##
- * All Colors can be freely choosen
+ * All Texts, Icons, Colors can be freely edited in the GUI
  * Put your own icons in the default /home/$USER/.config/zlauncher/icons directory
 
 ## New Features ##
