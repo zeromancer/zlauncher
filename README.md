@@ -37,8 +37,13 @@ ZLauncher is a menu like launcher, to edit configuration files and launch applic
 git clone https://github.com/zeromancer/zlauncher.git
 cd zlauncher
 make
-sudo make install
+sudo make PREFIX="usr" install
 ```
+
+
+## Customisation ##
+ * All Colors can be freely choosen
+ * Put your own icons in the default /home/$USER/.config/zlauncher/icons directory
 
 ## New Features ##
 
