@@ -59,7 +59,7 @@ public class ZLauncher_info_about : ZLauncher_template {
 		add_2_subheaders("Location:","GitHub");
 		add_2_subheaders("","https://github.com/zeromancer/zlauncher");
 		add_2_subheaders("Author:","David Siewert");
-		add_2_subheaders("Contact:","siewert"+".msc"+"@"+"gmail"+".com");
+		add_2_subheaders("Contact:","david"+"0"+"siewert"+"@"+"gmail"+".com");
 		
 		Gtk.Label subheader_copy = get_label("Icons",1);
 		grid.attach(subheader_copy,0, widget_lines++,first_widget_width+second_widget_width,widget_height);
