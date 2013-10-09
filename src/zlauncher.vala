@@ -53,6 +53,7 @@ public class ZLauncher : Gtk.Window  {
 	//		System
 	public string zconfig_icon_directory_fallback = "example-icons-dark";
 	public string zconfig_icon_directory_fallback2 = "/usr/share/icons/win8";
+	public string zconfig_icon_directory_fallback3 = "/share/icons/win8";
 	public string zconfig_content_filename = "zconfig_content.txt";
 	public string zconfig_cosmetic_filename = "zconfig_cosmetic.txt";
 
@@ -114,8 +115,13 @@ public class ZLauncher : Gtk.Window  {
 			
 				File default_icon_directory;
 				default_icon_directory = File.new_for_path(zconfig_icon_directory_fallback);	
+				
 				if(!default_icon_directory.query_exists())
 					default_icon_directory = File.new_for_path(zconfig_icon_directory_fallback2);	
+					
+				if(!default_icon_directory.query_exists())
+					default_icon_directory = File.new_for_path(zconfig_icon_directory_fallback3);
+					
 				assert (default_icon_directory.query_exists());
 				
 				var enumerator = default_icon_directory.enumerate_children (FileAttribute.STANDARD_NAME, 0);
